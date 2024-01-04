@@ -3,28 +3,32 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/style.css">
 		<title>Blog</title>
 	</head>
 	<body>
 		<header>
 			<!--<img src="img/Rectangle.png" alt="Лого"> Лого с ссылкой на домашнюю или без ссылки?-->
 			<nav>
-				<a href="#">Мой блог</a>
-				<a href="#">HTML и CSS</a>
-				<a href="#">Frontend</a>
-				<a href="#">Backend</a>
+				<ul>
+					<li><a href="#">Мой блог</a></li>
+					<li><a href="#">HTML и CSS</a></li>
+					<li><a href="#">Frontend</a></li>
+					<li><a href="#">Backend</a></li>
+				</ul>
+				<input type="text" placeholder="Поиск">
 			</nav>
 		</header>
 		<main>
-			<p>FRONTEND 12 мая 2024</p>
+			<p class="date">FRONTEND 12 мая 2024</p>
 			<h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-			<div>
-				<img src="img/developer.png" alt="Разработчик" />
+			<div class="author">
+				<img src="img/developer.png" alt="Разработчик написавший статью" />
 				<p>Наталья Васильева</p>
 				<p>Разработчик</p>
 			</div>
 			<div>
-				<img src="img/imac.png" alt="цвета" />
+				<img src="img/imac.png" alt="разнообразие цвета" />
 				<h2>
 					Теория цвета — это особенности эмоционального восприятия человеком тех
 					или иных цветовых решений. Цвета и различные их комбинации влияют на
@@ -51,8 +55,6 @@
 		</main>
 	</body>
 	<footer>
-		<div>
-			<p>Все права защищены (c) 2024</p>
-		</div>
+			<p>Все права защищены &#169; 2024</p>
 	</footer>
 </html>
