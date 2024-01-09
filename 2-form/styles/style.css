@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(
+		to left,
+		#f39494,
+		#fdc5c5 100%,
+		#f298de 0%,
+		#ffa5a5 100%,
+		#ffff 0%
+	);
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	background-color: #fffefe;
+	width: 582px;
+	height: 573px;
+	top: 225px;
+	left: 429px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0em;
+}
+
+input {
+	width: 394px;
+	height: 44px;
+	top: 424px;
+	left: 522px;
+	border-radius: 5px;
+	border: 1px;
+}
+
+button {
+	width: 394px;
+	height: 44px;
+	top: 622px;
+	left: 522px;
+	border-radius: 5px;
+	background-color: #089fe0;
+	font-size: 18px;
+	color: #ffff;
+	font: caption;
+}
